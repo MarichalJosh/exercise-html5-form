@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>HTML5 Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="card-header text-left">
+                <h2>Payment form example</h2>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="alert alert-danger" role="alert">
+                        <strong>Some fields are missing</strong>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault01">Card #</label>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="First name"
+                                value="XXXXXXXXXXXXXXXX" required>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault02">CVC#</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name"
+                                value="0000" required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefaultUsername">Amount</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="inputGroupPrepend2">$</span>
+                                <input type="text" class="form-control" id="validationDefaultUsername"
+                                    placeholder="Amount" aria-describedby="inputGroupPrepend2" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault03">First Name</label>
+                            <input type="text" class="form-control" id="validationDefault03" placeholder="" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault04">Last Name</label>
+                            <input type="text" class="form-control" id="validationDefault04" placeholder="" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-8 mb-3">
+                            <label for="validationDefault03">City</label>
+                            <input type="text" class="form-control" id="validationDefault03" placeholder="" required>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">State</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                <option selected>State</option>
+                                <option value="1">Heredia</option>
+                                <option value="2">San Jose</option>
+                                <option value="3">Alajuela</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault04">Potal Code</label>
+                            <input type="text" class="form-control" id="validationDefault04" placeholder="" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            We accept:
+                            <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                <i class="fab fa-cc-mastercard" ></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="card-footer text-muted text-right">
+                <button class="btn btn-secondary" type="submit">Cancel</button>
+                <button class="btn btn-primary" type="submit">Send</button>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
